@@ -1,0 +1,19 @@
+uuid: 91093a00-2dca-4b8a-bff8-3262c7f3a733
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_vlog
+field_name: field_vlog
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
