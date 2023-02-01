@@ -1,0 +1,28 @@
+uuid: e96011d9-c22e-4640-8cbb-03901439b700
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blog
+    - node.type.video
+id: node.video.field_blog
+field_name: field_blog
+entity_type: node
+bundle: video
+label: Blog
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      video: video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
