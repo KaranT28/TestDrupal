@@ -1,0 +1,25 @@
+uuid: fe643117-af7a-4aa2-9f9f-0eac2fd90e01
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.youtube
+  module:
+    - system
+  theme:
+    - olivero
+id: youtube
+theme: olivero
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'system_menu_block:youtube'
+settings:
+  id: 'system_menu_block:youtube'
+  label: YouTube
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
